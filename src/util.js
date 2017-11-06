@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:4000/api';
+const API_URL = 'https://lb-file-upload-server.herokuapp.com/api';
 
 async function get (name, data) {
   try {
